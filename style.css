@@ -24,20 +24,18 @@ header{
     color:rgb(40, 40, 94);
     padding-top: 100px;
     padding-left: 400px;
+    font-size: 3rem;
 }
-
-.hero-btn{
-    margin-left: 500px;
-    padding: 7px;
-    height: 40px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
+#hero .btn{
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: rgb(40, 40, 94);
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 2px 2px 3px 4px blue;
-}
-.hero-btn:hover{
-    transform: scale(1.2);
 }
 #about h1{
     padding:20px;
@@ -56,11 +54,15 @@ h5{
     display: flex;
     justify-content: space-between;
 }
-.contact{
-    margin: 10px;
-    padding: 10px;
+#contact h2{
+    margin: 20px;
+    padding: 20px;
 }
 .footer p a{
     color: black;
     text-decoration: none;
+}
+.footer h3{
+    margin: 20px;
+    padding: 10px;
 }
